@@ -1,0 +1,28 @@
+{
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "use_4bit": false,
+  "device": "NVIDIA GeForce RTX 4090",
+  "datetime": "2025-10-22T00:05:35",
+  "metrics": {
+    "MedMCQA": {
+      "dataset": "MedMCQA",
+      "n": 200,
+      "accuracy": 0.355,
+      "avg_latency_s": 0.035910770893096924,
+      "total_time_s": 7.182154178619385
+    },
+    "PubMedQA": {
+      "dataset": "PubMedQA",
+      "n": 200,
+      "accuracy": 0.56,
+      "avg_latency_s": 0.018370736837387085,
+      "total_time_s": 3.674147367477417
+    },
+    "TinyAdversarial": {
+      "dataset": "TinyAdversarial",
+      "n": 3,
+      "ASR": 0.6666666666666667,
+      "avg_latency_s": 5.0367503960927325
+    }
+  }
+}

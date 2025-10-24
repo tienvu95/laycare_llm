@@ -1,0 +1,22 @@
+{
+  "run": {
+    "timestamp": "2025-10-24T01:16:28.461557Z",
+    "model_id": "unsloth/meta-llama-3.1-8b-instruct-unsloth-bnb-4bit",
+    "dataset": "qiaojin/PubMedQA",
+    "split": "train",
+    "n_examples": 1000,
+    "max_input_tokens": 1024,
+    "max_new_tokens": 160
+  },
+  "metrics": {
+    "accuracy": 0.755,
+    "macro_f1": 0.5322871893602938,
+    "brier_mean_sum_0to2": 0.3791995670523204,
+    "rouge1": 0.3245738947079885,
+    "readability": {
+      "flesch_reading_ease": 36.70194014503,
+      "flesch_kincaid_grade": 12.646640216557792,
+      "smog_index": 14.337295547633225
+    }
+  }
+}
